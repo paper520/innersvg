@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>测试页面</title>
+  <script src="./innersvg.js"></script>
+</head>
+
+<body>
+  <svg width="560" height='420'>
+    <g id='target'>
+      <!-- 在这里插入内容 -->
+    </g>
+  </svg>
+  <script>
+    innerSVG.set(document.getElementById('target'), '<g class="background"><rect x="490" y="182.5" width="10" height="10" style="fill: rgb(73, 130, 203);">天津</rect><text x="510" y="190" style="dominant-baseline: middle; font-size: 12px;">天津</text><rect x="490" y="222.5" width="10" height="10" style="fill: rgb(211, 63, 70);">河北</rect><text x="510" y="230" style="dominant-baseline: middle; font-size: 12px;">河北</text><rect x="490" y="262.5" width="10" height="10" style="fill: rgb(140, 195, 81);">山东</rect><text x="510" y="270" style="dominant-baseline: middle; font-size: 12px;">山东</text></g>');
+  </script>
+</body>
+
+</html>
